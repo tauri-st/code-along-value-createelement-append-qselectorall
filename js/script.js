@@ -21,6 +21,6 @@ addShowButton.addEventListener("click", function () {
         listItem.innerText = show;
         showList.append(listItem);
         let shows = document.querySelectorAll(".show-list li");
-        showCount.innertext = shows.length;
+        showCount.innerText = shows.length;
     }
 });
